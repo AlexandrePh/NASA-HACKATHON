@@ -15,11 +15,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let centerLocation = gpsService.fetchCurrentLocation(){
-             map.centerCoordinate = centerLocation.coordinate
-        }
+        reload()
        
      
+    }
+    func reload(){
+        if let centerLocation = gpsService.fetchCurrentLocation(){
+            map.centerCoordinate = centerLocation.coordinate
+        }
     }
 
 
