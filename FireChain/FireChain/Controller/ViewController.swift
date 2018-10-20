@@ -14,8 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var map: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
-     //   var centerLocation = gpsService.fetchCurrentLocation()
-        var location = CLLocationCoordinate2DMake(<#T##latitude: CLLocationDegrees##CLLocationDegrees#>, <#T##longitude: CLLocationDegrees##CLLocationDegrees#>)
+        
+        if let centerLocation = gpsService.fetchCurrentLocation(){
+             map.centerCoordinate = centerLocation.coordinate
+        }
+       
+     
     }
 
 

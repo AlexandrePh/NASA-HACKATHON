@@ -17,16 +17,18 @@ class LocationService:NSObject {
         super.init()
     }
     
-    func setup(){
+    func run(){
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = 3
         locationManager.distanceFilter = 20
         locationManager.startUpdatingLocation()
         
     }
+    func pause(){
+        locationManager.stopUpdatingLocation()
+    }
     func fetchCurrentLocation()->CLLocation?{
         return locationManager.location
-    
     }
     
 }
