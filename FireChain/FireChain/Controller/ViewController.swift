@@ -7,21 +7,17 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
     
-    var button:UIButton!
-    
+    @IBOutlet weak var map: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        
-        
+        var centerLocation = CLLocationl
     }
 
-    @IBAction func reportDanger(_ sender: UIButton) {
-        
-    }
+
     
 }
 
