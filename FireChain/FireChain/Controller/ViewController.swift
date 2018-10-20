@@ -20,6 +20,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func reportDanger(_ sender: UIButton) {
+        guard let currentLocation = gpsService.fetchCurrentLocation() else{
+            return
+        }
+        currentLocation.
         
     }
     

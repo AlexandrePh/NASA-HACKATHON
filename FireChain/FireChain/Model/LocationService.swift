@@ -21,8 +21,13 @@ class LocationService:NSObject {
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = 3
         locationManager.distanceFilter = 20
+        locationManager.startUpdatingLocation()
+        
     }
+    func fetchCurrentLocation()->CLLocation?{
+        return locationManager.location
     
+    }
     
 }
 
