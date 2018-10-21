@@ -11,22 +11,28 @@
 		4647E795217BA17A00E4C338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4647E794217BA17A00E4C338 /* ViewController.swift */; };
 		4647E798217BA17A00E4C338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4647E796217BA17A00E4C338 /* Main.storyboard */; };
 		4647E79D217BA17B00E4C338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4647E79B217BA17B00E4C338 /* LaunchScreen.storyboard */; };
-		4647E7A8217BA79900E4C338 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4647E7A7217BA79900E4C338 /* DAO.swift */; };
+		4647E7A8217BA79900E4C338 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4647E7A7217BA79900E4C338 /* API.swift */; };
 		4647E7AB217BB60F00E4C338 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4647E7AA217BB60F00E4C338 /* MapKit.framework */; };
 		4647E7AD217BB62800E4C338 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4647E7AC217BB62800E4C338 /* LocationService.swift */; };
+		46C041F2217BE3C800D95D6F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C041F1217BE3C800D95D6F /* Alamofire.framework */; };
 		FD6D7C9B370253FE2489B664 /* Pods_FireChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB52331A4E59AF9D028FDA8B /* Pods_FireChain.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460B6FEE217BDB4B0089B48D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4643824A217BDBAD00D900C0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4643824C217BE19A00D900C0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4647E78F217BA17A00E4C338 /* FireChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4647E792217BA17A00E4C338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4647E794217BA17A00E4C338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4647E797217BA17A00E4C338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4647E79C217BA17B00E4C338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4647E79E217BA17B00E4C338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4647E7A7217BA79900E4C338 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		4647E7A7217BA79900E4C338 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4647E7AA217BB60F00E4C338 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4647E7AC217BB62800E4C338 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		46C041EF217BE36800D95D6F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C041F1217BE3C800D95D6F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59380A8AEB88E96F10ADDFFE /* Pods-FireChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireChain/Pods-FireChain.debug.xcconfig"; sourceTree = "<group>"; };
 		6AEDB1D3D20FFAB794F96045 /* Pods-FireChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChain.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireChain/Pods-FireChain.release.xcconfig"; sourceTree = "<group>"; };
 		FB52331A4E59AF9D028FDA8B /* Pods_FireChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C041F2217BE3C800D95D6F /* Alamofire.framework in Frameworks */,
 				4647E7AB217BB60F00E4C338 /* MapKit.framework in Frameworks */,
 				FD6D7C9B370253FE2489B664 /* Pods_FireChain.framework in Frameworks */,
 			);
@@ -79,7 +86,7 @@
 		4647E7A4217BA1AC00E4C338 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4647E7A7217BA79900E4C338 /* DAO.swift */,
+				4647E7A7217BA79900E4C338 /* API.swift */,
 				4647E7AC217BB62800E4C338 /* LocationService.swift */,
 			);
 			path = Model;
@@ -104,6 +111,11 @@
 		4647E7A9217BB60F00E4C338 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46C041F1217BE3C800D95D6F /* Alamofire.framework */,
+				46C041EF217BE36800D95D6F /* Alamofire.framework */,
+				4643824C217BE19A00D900C0 /* Alamofire.framework */,
+				4643824A217BDBAD00D900C0 /* Alamofire.framework */,
+				460B6FEE217BDB4B0089B48D /* Alamofire.framework */,
 				4647E7AA217BB60F00E4C338 /* MapKit.framework */,
 				FB52331A4E59AF9D028FDA8B /* Pods_FireChain.framework */,
 			);
@@ -246,7 +258,7 @@
 				4647E795217BA17A00E4C338 /* ViewController.swift in Sources */,
 				4647E7AD217BB62800E4C338 /* LocationService.swift in Sources */,
 				4647E793217BA17A00E4C338 /* AppDelegate.swift in Sources */,
-				4647E7A8217BA79900E4C338 /* DAO.swift in Sources */,
+				4647E7A8217BA79900E4C338 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
